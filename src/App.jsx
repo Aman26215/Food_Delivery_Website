@@ -1,4 +1,3 @@
-import React from 'react'
 import Navbar from './components/Navbar/Navbar'
 import Home from './pages/Home/Home'
 import Cart from './pages/Cart/Cart'
@@ -12,9 +11,9 @@ const App = () => {
     <div className='app'>
       <Navbar/>
      <Routes>
-     <Route path='/' element={<Home/>} />
-      <Route path='/cart' element={<Cart/>} />
-      <Route path='/order' element={<PlaceOrder/>} />
+     <Route path='/Food_Delivery_Website' element={<Home/>} />
+      <Route path='/Food_Delivery_Website/cart' element={<Cart/>} />
+      <Route path='/Food_Delivery_Website/order' element={<PlaceOrder/>} />
      </Routes>
     </div>
     <Footer/>
